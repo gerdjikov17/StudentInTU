@@ -1,4 +1,5 @@
-//programa za timperaturiiii
+/*author Gerdzhikov
+program that reads temperatures from file and does different operations with the information*/
 
 #include <stdio.h>
 #include <string.h>
