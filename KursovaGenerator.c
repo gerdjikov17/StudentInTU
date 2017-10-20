@@ -1,3 +1,5 @@
+//author Gerdzhikov
+//Program that distributes course projects to different students and writes in file
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -37,7 +39,7 @@ int main()
 		
         if(i > 1) 
         {
-            fprintf(ASD, "Student %d has kursova %d \n", i-1, randomNumber);
+            fprintf(ASD, "Student %d has project %d \n", i-1, randomNumber);
         }
         
     }
