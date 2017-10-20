@@ -1,3 +1,6 @@
+/*Author Gerdzhikov
+Program that makes linked list from structure to add students and their info
+does different operations with the names and writes the results in binary file*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
