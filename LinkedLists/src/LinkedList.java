@@ -83,7 +83,7 @@ public class LinkedList {
 			System.out.println("Linked List is empty");
 		} else {
 			while (current != null) {
-				boolean isDuplicate=false;
+				boolean middleDelete=false;
 				if (current.getCarModel() == model) {
 					if (current == firstLink) {
 						firstLink = firstLink.next;
@@ -95,11 +95,11 @@ public class LinkedList {
 					} else {
 						previous.next = current.next;
 						current.next.prev = previous;
-						isDuplicate=true;
+						middleDelete=true;
 					}
 
 				}
-				if(!isDuplicate)
+				if(!middleDelete)
 				previous = current;
 				current = current.next;
 			}
